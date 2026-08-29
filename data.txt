@@ -1,0 +1,44 @@
+newRecipe
+title
+	Squash og tomat med rosmarin - enkel og nem festmad
+sizeNtime
+	(3-4 personer)(Start 1&frac12; time f&oslash;r)
+ingredients
+	2 squash(/courgette/zuchinni i Agurkest&oslash;rrelse),
+	500 g modne tomater (Evt. sherrytomater),
+	4 fed hvidl&oslash;g,
+	2-3 kviste frisk rosmarin,
+	&frac34; dL Olivenolie,
+	(flage)salt
+procedure
+	Start med at sm&oslash;re et ildfast fad med olivenolie,
+	T&aelig;nd ovnen p&aring; 180&deg; C. Husk at tage pladerne ud,
+	Vask 2 squash og sk&aelig;r enderne af. Sk&aelig;r squashene i 1-1&half; cm tykke skiver,
+	Vask 500 g tomater. Sk&aelig;r stilk-enden af hver tomat og pres kernerne ud i (gr&oslash;ntsags-)skraldespanden,
+	Sk&aelig;r tomaterne i &half; cm tykke skiver,
+	Pil 4 fed hvidl&oslash;g og sk&aelig;r dem i meget tynde skiver,
+	Tag n&aring;lene af 2-3 kviste frisk rosmarin og hak dem fint,
+	Kom &frac34; dL olivenolie i en Margrethesk&aring;l,
+	tils&aelig;t rosmarinen,
+	og vend alle gr&oslash;ntsagerne godt i olien,
+	Vend gr&oslash;ntsagerne ud i det smurte ildfaste fad og bag dem i 45 minutter til squashene er bl&oslash;de. Husk at s&aelig;tte et minutur,
+	N&aring;r minuturet ringer tjekker du om squashene er bl&oslash;de. Hvis de ikke er skal det have 10-20 minutter mere,
+	Drys med flagesalt eller groft salt n&aring;r du har taget fadet ud af ovnen og server med gode flûtes eller Emigrantbr&oslash;d
+
+newRecipe
+title
+	Pak Choi stir fry - nem wok ret
+sizeNtime
+	(3-4 personer)		(Start &frac12; time f&oslash;r)
+ingredients
+	450 g Pak Choi (eller spidsk&aring;l eller kinak&aring;l)
+	2 spsk olie
+	1-2 spsk &oslash;sterssovs
+procedure
+	Start med at s&aelig;tte ris over (Opskrift herunder)
+	Rens og skyl k&aring;len. Ryst vandet af bladene eller dup dem t&oslash;rre i et viskestykke 
+	Sk&aelig;r k&aring;len i brede strimler og sk&aelig;r strimlerne over en gang eller to
+	N&aring;r risen er n&aelig;sten kogt varmes en sauterpande eller en stegepande
+	N&aring;r panden er varm kommes 2 spsk olie i
+	Tils&aelig;t k&aring;len og r&oslash;r rundt et par minutter til k&aring;len lige er faldet sammen
+	Tils&aelig;t 1-2 spsk &oslash;sterssovs, r&oslash;r rundt, og server straks med ris og ekstra &oslash;sterssovs
