@@ -30,10 +30,10 @@ function parseRecipes() {
     
     // Prop objectet ind i en dictionary, så der kan søges på titlen
     recipes.push({
-    recipeName: title,
-    recipeText: currentRecipe 
-    // Slut på løkken
+        recipeName: title,
+        recipeText: currentRecipe
     });
+    // Slut på løkken
 }
 
 function buttonClicked() {
