@@ -1,4 +1,4 @@
-### The goals of this project
+###The goals of this project
 
 This project aims to update my current project TFTKogebog, which is an PWA cookbook aimed at beginners and neurodiverse people. In danish.
 
