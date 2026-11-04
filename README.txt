@@ -1,10 +1,11 @@
-Klon projektet til en folder på din harddisk.
-Jeg har en vejledning på https://madshorn.dk/programming/git.html 
-i bunden af siden under overskriften "Github"
+### The goals of this project
 
-For at teste siden er det nødvendigt at tilgå den via en lokal server.
+This project aims to update my current project TFTKogebog, which is an PWA cookbook aimed at beginners and neurodiverse people. In danish.
 
-Spin en server op ved at starte en terminal (ctrl+shift+t i Linux, windows-tast+cmd i Windows)
-Naviger til den folder du har projektet i med cd (Tab autocompleter navnet på folderen i Linux efter et par bogstaver)
-Skriv python -m http.server 8000 (I Linux kan man skrive .& til sidst for at køre den i baggrunden)
-Gå til browseren og find siden på http://localhost:8000/kogebog.html 
+The aim is twofold: To make the recipes searchable and sortable and to train cooperation between me and etok414.
+
+The old cookbook is mostly HTML with all the recipes hardcoded and wrapped in html-tags.
+The idea with this update is to have a .txt file containing the recipes in a structured format and then use JavaScript to pull out relevant recipes and wrap them in html-tags on the fly.
+
+The interface should present categories, an option for showing all recipes alphabetically and an option for searching for specific ingredients. Ideally presenting a list utilizing specific ingredients.
+Furthermore recipes should be tagged for energy usage, as vegan/vegetarian/pescetarian/... and for how taxing the recipe is to follow, and filters should be applicable.
