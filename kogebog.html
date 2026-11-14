@@ -4,10 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trin-for-trin kogebog</title>
+    <link rel="stylesheet" href="kogebog.css">
     <script type="text/javascript" src="helper.js" defer></script>
 </head>
 <body onload="setUpFunction()">
-    <h1>Kogebog</h1>
+    <h1>Trin for Trin Kogebog</h1>
+
+    <div id="filterDivContainer">
+        <div id="smallFilterDiv">
+            <input id="searchTextBox" type="text">
+            <button id="searchButton">&#x1F50E;</button>
+        </div>
+        <div id="fullFilterDiv">
+        </div>
+    </div>
+    
+    <br> <!-- TODO: Remove this <br> and use CSS instead -->
+
+    <div id="tabButtons">
+        <button id="alphabeticalButton" class="tabButton">Alfabetisk</button>
+        <button id="categoryButton" class="tabButton tabActive">Kategori</button>
+        <button id="skillLevelButton" class="tabButton">Sværhedsgrad</button>
+    </div>
+
+    <div id="alphabeticalTab" style="display: none;"></div>
+    
+    <div id="catogoryTab" style="display: block;">
+        <details>
+            <summary id="veganSummary">Vegansk</summary>
+            <div>Blah blah blah</div>
+        </details>
+        <details>
+            <summary id="nearVeganSummary">Nær-vegansk</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="vegetarianSummary">Vegetarisk</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="fishSummary">Fisk</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="chickenSummary">Kylling</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="meatSummary">Kød</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="bakingSummary">Bagværk</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="sidedishSummary">Tilbehør</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="dessertSummary">Desserter og kager</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="breakfastSummary">Morgenmad</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="beverageSummary">Drikke</summary>
+            <div></div>
+        </details>
+        <details>
+            <summary id="hintsSummary">Tips og tricks</summary>
+            <div></div>
+        </details>
+    </div>
+    
+    <div id="skillLevelTab" style="display: none;"></div>
+
+    
+    <!-- Just for fun button -->
+    <br><br><br>
     <button id="button">Klik mig</button>
+    <!-- Just for fun button end -->
 </body>
 </html>

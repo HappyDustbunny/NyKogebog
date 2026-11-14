@@ -1,0 +1,33 @@
+/* Formatting for tags below */
+
+summary {
+	font-size: 1.5em;
+	background-color: rgb(145,235, 255);
+	border: 1px solid;
+	text-align: center;
+}
+
+summary::marker {  /* Remove arrow from summary tag */
+  content: none;
+}
+
+
+/* Formatting for id-elements below */
+
+#tabButtons {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Formatting for classes below */
+
+.tabButton {
+    width: 33vw;
+    border-radius: 15px 15px 0px 0px;
+    background: rgba(211, 211, 211, 0.30);
+}
+
+.tabActive {  /* Need to be after .tabButton */
+    background: rgba(153, 222, 238, 0.77);
+}
