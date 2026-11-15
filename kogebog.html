@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trin-for-trin kogebog</title>
     <link rel="stylesheet" href="kogebog.css">
-    <script type="text/javascript" src="helper.js" defer></script>
+    <script type="text/javascript" src="kogebog.js" defer></script>
 </head>
 <body onload="setUpFunction()">
     <h1>Trin for Trin Kogebog</h1>
 
     <div id="filterDivContainer">
-        <div id="smallFilterDiv">
+        <div id="searchDiv">
             <input id="searchTextBox" type="text">
             <button id="searchButton">&#x1F50E;</button>
         </div>
-        <div id="fullFilterDiv">
+        <div id="sortDiv">
+            <form id="sorting" action="">
+                Sorter <input type="radio"name='sort' value="alphabetical">Alfabetisk
+                <input type="radio"name='sort'" value="skillLevel" checked="checked">Efter sværhedsgrad
+            </form>
         </div>
     </div>
     
@@ -24,7 +28,6 @@
     <div id="tabButtons">
         <button id="alphabeticalButton" class="tabButton">Alfabetisk</button>
         <button id="categoryButton" class="tabButton tabActive">Kategori</button>
-        <button id="skillLevelButton" class="tabButton">Sværhedsgrad</button>
     </div>
 
     <div id="alphabeticalTab" style="display: none;"></div>

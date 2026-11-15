@@ -1,12 +1,18 @@
-// Code for getting the recipes into a format that can be manipulated
-
+// Global variables
 let rawText = '';
 let recipes = [];
 let recipesByName;
 let names = [];
+let whichTabButtonIsClicked = 'categoryButton';
 
+
+// Eventlisteners
 document.getElementById('button').addEventListener('click', buttonClicked);
+document.getElementById('sorting').addEventListener('click', sortCategories);
+document.getElementById('tabButtons').addEventListener('click', function(event) { tabButtonsClicked(event); })
 
+
+// Classes
 class Recipe {
     constructor(title, sizeNtime, ingredients, procedure) {
         this.title = title;
@@ -17,12 +23,15 @@ class Recipe {
     }
 }
 
+
+// Functions
 async function setUpFunction() {
     rawText = await fetch('./data.txt').then(r => r.text());
     parseRecipes();
 }
 
-function parseRecipes() {
+
+function parseRecipes() { // Code for getting the recipes into a format that can be manipulated
     // A loop should read the recipes one at a time from rawText and stuff 
     // them into an array using relevant regex
 
@@ -67,6 +76,43 @@ function parseRecipes() {
     // recipesByName.get('Mudderkager').recipeText.ingredients
     // Test for existence of recipe by recipesByName.has('Pangalactic Gargleblaster')
 }
+
+
+function tabButtonsClicked(event) {
+    let whichTabButtonIsClicked = event.target.id;
+    
+    // Toggle colour for the tabs and display or remove the sorting option for categories
+    if (whichTabButtonIsClicked === 'categoryButton') {
+        document.getElementById('alphabeticalButton').classList.remove('tabActive');
+        document.getElementById('categoryButton').classList.add('tabActive');
+        document.getElementById('sortDiv').style.display = 'block';
+    } else {
+        document.getElementById('alphabeticalButton').classList.add('tabActive');
+        document.getElementById('categoryButton').classList.remove('tabActive');
+        document.getElementById('sortDiv').style.display = 'none';
+    }
+
+    fillTab(whichTabButtonIsClicked);
+}
+
+
+function fillTab(whichTabButtonIsClicked) {
+    console.log('Stuff to do here...');  // TODO
+    // Test which tab button was clicked using the functions parameter and then 
+    // use the value returned from sortCategories to fill the categories tab
+}
+
+
+function sortCategories() {
+    console.log('Stuff to do here...');  // TODO
+    // Test for whichSorting and sort categories and return them ready to be filled into the category tab
+}
+
+
+function whichSorting() {  // Return status of radio buttons 
+    return document.getElementById('sorting').elements['sort'].value;
+}
+
 
 // Add functionality to button, just for funsies
 function buttonClicked() {
